@@ -15,7 +15,7 @@ export default class Navbar extends Component {
                     </div>
                 ) :         (
                     <div>
-                        <button>Logout</button>
+                        <button onClick={this.context.toggleIsAuth}>Logout</button>
                     </div>
                 )
             );

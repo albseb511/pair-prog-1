@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./Components/Navbar";
+import UserState from './Components/UserState';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       - these two components should not share props and the app state should be accessed through the context api`}
       </code> */}
       <Navbar />
+      <UserState />
     </div>
   );
 }
